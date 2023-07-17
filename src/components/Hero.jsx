@@ -4,7 +4,7 @@ import { styles } from '../styles'
 import { motion } from "framer-motion";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import LinkOffIcon from '@mui/icons-material/LinkOff';
+import LinkIcon from '@mui/icons-material/Link';
 
 export default function Hero({isMobile}) {
 
@@ -23,13 +23,13 @@ export default function Hero({isMobile}) {
             Hi, I'm <span className='text-[#915EFF]'>Ali</span>
           </h1>
           <p style={{fontSize: '23px'}} className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a MERN stack<br className='sm:block hidden' />
-            Developer
+            I am a full-stack<br className='sm:block hidden' />
+            Web developer
           </p>
           <div className='mt-2 flex w-40 justify-between mb-2'>
-            <GitHubIcon sx={{cursor: 'pointer', '&:hover': {color: '#d9d9d9'}}} fontSize='large' onClick={() => {window.location.href = "https://github.com/ali22905"}} />
-            <LinkedInIcon sx={{cursor: 'pointer', '&:hover': {color: '#d9d9d9'}}} fontSize='large' onClick={() => {window.location.href = "https://www.linkedin.com/in/ali-tarek-32b898223/"}} />
-            <LinkOffIcon sx={{cursor: 'pointer', '&:hover': {color: '#d9d9d9'}}} fontSize='large' />
+            <GitHubIcon sx={{cursor: 'pointer', '&:hover': {color: '#d9d9d9'}}} fontSize='large' onClick={() => {window.open('https://github.com/ali22905', '_blank')}} />
+            <LinkedInIcon sx={{cursor: 'pointer', '&:hover': {color: '#d9d9d9'}}} fontSize='large' onClick={() => {window.open('https://www.linkedin.com/in/ali-zaghloul-32b898223/', '_blank')}} />
+            <LinkIcon sx={{cursor: 'pointer', '&:hover': {color: '#d9d9d9'}}} onClick={() => {window.open('https://ali-zaghloul.vercel.app/', '_blank')}} fontSize='large' />
           </div>
           <div>
 

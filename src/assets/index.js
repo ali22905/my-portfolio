@@ -34,6 +34,7 @@ import  dashboard_website from "./dashboard_website.png";
 
 import rehab from "./rehab.jpg"
 import obad from "./obad.jpg"
+import eslam from "./eslam.jpg"
 
 export {
   logo,
@@ -68,4 +69,5 @@ export {
   ecommerce,
   dashboard_website,
   obad,
+  eslam,
 };

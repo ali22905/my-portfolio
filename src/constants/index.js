@@ -27,6 +27,7 @@ import {
   ecommerce,
   dashboard_website,
   obad,
+  eslam,
 } from "../assets";
 
 export const navLinks = [
@@ -124,25 +125,25 @@ const testimonials = [
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Ali proved me wrong.",
     name: "Abdullah Ali",
-    designation: "CFO",
+    designation: "founder",
     company: "Prock",
     image: obad,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Ali does.",
+      "I had a fantastic experience working with Ali on my online gym website. Not only did they deliver the project on time, but the code was clean and well-organized. Communication was excellent throughout the project. I highly recommend Ali to anyone looking for a skilled and reliable developer.",
     name: "Rehab Helmy",
-    designation: "COO",
-    company: "DEF Corp",
+    designation: "CEO",
+    company: "herself",
     image: rehab,
   },
   {
     testimonial:
-      "After Ali optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "David Wang",
-    designation: "CTO",
-    company: "technologya",
-    image: "https://randomuser.me/api/portraits/men/10.jpg",
+      "I Worked with Aly Before , he is a Huge Talent in Web Development , despite of his Youth but he has a very good Potential and Technical Knowledge with Hands-on Experience which will led him to be a great Software Engineer in the Future",
+    name: "Eslam Helmy",
+    designation: "CUCM",
+    company: "Orange",
+    image: eslam,
   },
 ];
 

@@ -51,7 +51,7 @@ function About() {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am an experienced full stack web developer specializing in the MERN stack with over 2 years of hands-on coding expertise. I take pride in delivering high-quality projects with clean, well-documented code. Meeting deadlines is a priority for me, and I am committed to timely task completion. Effective communication and understanding client requirements are essential aspects of my work. I provide regular project updates to ensure client satisfaction. Let's work together to create exceptional web solutions.
+        Experienced full-stack web developer proficient in JavaScript, HTML, CSS, React.js, Node.js, and more. Skilled in problem-solving, collaboration, and writing clean code. Committed to staying updated with industry trends and best practices through continuous learning. Strong ability to deliver successful projects while working independently or within teams. Passionate about creating efficient, visually appealing, and user-friendly web applications. Adaptable to diverse project requirements and able to handle complex challenges with a critical mindset. Seeking opportunities to contribute my skills and drive innovation within a dynamic team. Let's discuss how I can add value to your projects.
       </motion.p>
 
       <div style={{ justifyContent: 'center' }} className='mt-20 flex flex-wrap gap-10'>
