@@ -28,7 +28,7 @@ export default function Hero({isMobile}) {
           </p>
           <div className='mt-2 flex w-40 justify-between mb-2'>
             <GitHubIcon sx={{cursor: 'pointer', '&:hover': {color: '#d9d9d9'}}} fontSize='large' onClick={() => {window.open('https://github.com/ali22905', '_blank')}} />
-            <LinkedInIcon sx={{cursor: 'pointer', '&:hover': {color: '#d9d9d9'}}} fontSize='large' onClick={() => {window.open('https://www.linkedin.com/in/ali-zaghloul-32b898223/', '_blank')}} />
+            <LinkedInIcon sx={{cursor: 'pointer', '&:hover': {color: '#d9d9d9'}}} fontSize='large' onClick={() => {window.open('https://www.linkedin.com/in/ali-attia-32b898223', '_blank')}} />
             <LinkIcon sx={{cursor: 'pointer', '&:hover': {color: '#d9d9d9'}}} onClick={() => {window.open('https://ali-zaghloul.vercel.app/', '_blank')}} fontSize='large' />
           </div>
           <div>
